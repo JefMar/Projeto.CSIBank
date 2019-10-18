@@ -7,9 +7,8 @@ public class Conta {
 	
 	
 	public void deposita(double valor) {
-		if(valor < 3000) {
 			saldo += valor;
-		}
+	
 	}
 	
 	public void saca(double valor) {
